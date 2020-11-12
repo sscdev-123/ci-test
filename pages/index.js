@@ -11,6 +11,7 @@ import styles from '../styles/Home.module.css'
 // gitの運用について
 // 管理者の環境を構築する
 // できたら明日はdockerのお勉強
+// むずい
 
 export default function Home() {
   return (
