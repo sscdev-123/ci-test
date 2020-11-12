@@ -1,6 +1,17 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+//やること
+// githubにpush
+// 動画でcodedeployやる
+// 会社のEC2を適当にtestを起動する
+//  vpcはtestを使用
+// Next.jsテストをやったら、今度はcisco-testをやってみる
+// できたらpm2を調べる
+// gitの運用について
+// 管理者の環境を構築する
+// できたら明日はdockerのお勉強
+
 export default function Home() {
   return (
     <div className={styles.container}>
