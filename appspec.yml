@@ -2,4 +2,4 @@ version: 0.0
 os: linux
 files:
  - source: /
-   destination: /project/test-ci
+   destination: /project/test-ci2
