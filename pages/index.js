@@ -14,6 +14,13 @@ import styles from '../styles/Home.module.css'
 // むずい消す
 
 export default function Home() {
+
+  const handleClick = () => {
+    fetch('api/hello')
+    .then(response => response.json())
+    .then(data => alert(data.message));
+  };
+
   return (
     <div className={styles.container}>
       <Head>
@@ -25,6 +32,8 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">むずかしいわよ！</a>
         </h1>
+
+        <button onClick={handleClick}>こんにちは</button>
 
         <p className={styles.description}>
           Get started by editing{' '}
