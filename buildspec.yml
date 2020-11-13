@@ -10,9 +10,9 @@ phases:
    commands:
      - echo Build completed on `date`
     #  - cp deploy/appspec.yml appspec.yml
-artifacts:
- files:
-   - /project/test-ci
+# artifacts:
+#  files:
+#    - /project/test-ci
   #  - appspec.yml
 # cache:
 #  paths:
