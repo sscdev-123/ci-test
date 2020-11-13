@@ -11,6 +11,10 @@ phases:
      - echo Build completed on `date`
      - echo $CODEBUILD_SRC_DIR
     #  - cp deploy/appspec.yml appspec.yml
+  artifacts:
+  files:
+    - '**/*'
+  name: $AWS_REGION-$(date +%Y-%m-%d)
 # artifacts:
 #  files:
 #    - /project/test-ci
