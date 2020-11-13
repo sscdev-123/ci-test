@@ -10,14 +10,14 @@ phases:
    commands:
      - echo Build completed on `date`
      - echo $CODEBUILD_SRC_DIR
- artifacts:
-   files:
-     - '**/*'
-   name: $AWS_REGION-$(date +%Y-%m-%d)
+artifacts:
+ files:
+   - '**/*'
+ name: $AWS_REGION-$(date +%Y-%m-%d)
 # artifacts:
 #  files:
 #    - /project/test-ci
-  #  - appspec.yml
+#    - appspec.yml
 # cache:
 #  paths:
 #    - '/root/.npm/**/*'
