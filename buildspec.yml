@@ -12,7 +12,7 @@ phases:
     #  - cp deploy/appspec.yml appspec.yml
 artifacts:
  files:
-   - /.next/**/*
+   - /project/test-ci
   #  - appspec.yml
 # cache:
 #  paths:
