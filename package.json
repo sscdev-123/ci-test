@@ -3,9 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "pm2:dev": "pm2 start app.json",
+    "pm2:start": "next build && pm2 start app.json --env production"
   },
   "dependencies": {
     "next": "10.0.1",

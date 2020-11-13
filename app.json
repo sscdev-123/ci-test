@@ -1,6 +1,10 @@
 {
-    "name" : "app",
+    "name" : "test-ci",
     "script" : "./node_modules/next/dist/bin/next",
+    "watch" : true,
+    "exec_mode": "cluster",
+    "instances": 0,
+    "log-date-format": "YYYY-MM-DD HH:mm Z",
     "env" : {
       "NODE_ENV" : "development"
     },
