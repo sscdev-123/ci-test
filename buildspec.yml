@@ -14,10 +14,6 @@ artifacts:
  files:
    - '**/*'
  name: $AWS_REGION-$(date +%Y-%m-%d)
-# artifacts:
-#  files:
-#    - /project/test-ci
-#    - appspec.yml
-# cache:
-#  paths:
-#    - '/root/.npm/**/*'
+cache:
+ paths:
+   - '/root/.npm/**/*'
