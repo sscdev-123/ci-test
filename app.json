@@ -1,6 +1,6 @@
 {
     "name" : "test-ci",
-    "script" : "./node_modules/next/dist/bin/next",
+    "script" : "npm start",
     "watch" : true,
     "exec_mode": "cluster",
     "instances": 0,
